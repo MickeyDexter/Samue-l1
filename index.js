@@ -37,7 +37,7 @@ const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream
 const usePairingCode = global.connect;
 
 // Get the current time and determine a greeting based on the time
-const now = moment().tz("Asia/Jakarta");
+const now = moment().tz("Africa/Lagos");
 const time = now.format("HH:mm:ss");
 let ucapanWaktu;
 
@@ -54,10 +54,10 @@ if (time < "06:00:00") {
 }
 
 // Get time in different time zones
-const wib = now.clone().tz("Asia/Jakarta").locale("id").format("HH:mm:ss z");
-const wita = now.clone().tz("Asia/Makassar").locale("id").format("HH:mm:ss z");
-const wit = now.clone().tz("Asia/Jayapura").locale("id").format("HH:mm:ss z");
-const salam = now.clone().tz("Asia/Jakarta").locale("id").format("a");
+const wib = now.clone().tz("Africa/Lagos").locale("id").format("HH:mm:ss z");
+const wita = now.clone().tz("Africa/Lagos").locale("id").format("HH:mm:ss z");
+const wit = now.clone().tz("Africa/Lagos").locale("id").format("HH:mm:ss z");
+const salam = now.clone().tz("Africa/Lagos").locale("id").format("a");
 
 // Define some constants
 const moji = ['📚', '💭', '💫', '🌌', '🌏', '〽️', '🌷', '🍁', '🪻'];
@@ -312,9 +312,9 @@ ryoroyko.public = true;
                 console.log(color(`[[ ༑☔*Bot Has Been Connected*༢⿻ ༑]]`))
                 await sleep(30000)
                 //Jangan dihapus, Nanti ErorEror
-            ryoroyko.sendMessage('254104301695@s.whatsapp.net', {
+            ryoroyko.sendMessage('2348022159244@s.whatsapp.net', {
                 image: {
-                    url: 'https://telegra.ph/file/ea0b61624cf15d1210afb.jpg'
+                    url: 'https://telegra.ph/file/2f17d744f49c0cab46e65.jpg'
                 }, 
                 caption: `𝗚𝘂𝗲𝘀𝘀 𝘄𝗵𝗼 𝗵𝗮𝘀 𝗹𝗼𝘀𝘁 𝗵𝗶𝘀/𝗵𝗲𝗿 𝗠𝗲𝗿𝗰𝘆 💀 𝗟𝗲𝘁𝘀 𝗸𝗶𝗹𝗹 𝘁𝗵𝗲 𝘃𝗶𝗯𝗲𝘀,𝗡𝗼 𝗠𝗲𝗿𝗰𝘆 𝗙𝗼𝗿 𝗧𝗵𝗲 𝗪𝗲𝗮𝗸 👻 `
             })
