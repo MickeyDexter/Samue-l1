@@ -268,10 +268,10 @@ var greetingTime = "Good Morning 🏙️"
 if(time2 < "01:00:00"){
 var greetingTime = "Good Morning 🌆"
 }
-const wib = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("HH:mm:ss z")
-const wita = moment(Date.now()).tz("Asia/Makassar").locale("id").format("HH:mm:ss z")
-const wit = moment(Date.now()).tz("Asia/Jayapura").locale("id").format("HH:mm:ss z")
-const salam2 = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("a")
+const wib = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const wita = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const wit = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const salam2 = moment(Date.now()).tz("Africa/Lagos").locale("id").format("a")
 let d = new Date
 let gmt = new Date(0).getTime() - new Date("1 Januari 2024").getTime()
 let weton = ["Pahing", "Pon","Wage","Kliwon","Legi"][Math.floor(((d * 1) + gmt) / 84600000) % 5]
@@ -1321,7 +1321,7 @@ let itsmenu = `
 
  ━━━━━━━━━━━━━━━━━━━━━━━
  
-  ⧠       \`𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧\`
+  ⧠       \`GREY BOT\`
   ⧠ *_${weton} - ${week}, ${calender}_*
 
   ⧠ 𝑵𝒂𝒎𝒆  : ${pushname}
@@ -1330,10 +1330,7 @@ let itsmenu = `
   ⧠ 𝑺𝒐𝒖𝒓𝒄𝒆   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
   ⧠ 𝑺𝒕𝒂𝒕𝒖𝒔    : ${ryozingod.public ? '🕸️ 𝐏𝐮𝐛𝐥𝐢𝐜 🕷️' : '🕷️ 𝐒𝐞𝐥𝐟 🕸️'}
   ⧠ 𝑷𝒊𝒏𝒈 : ${latensi.toFixed(4)}
-  
-          \`𝗕𝗢𝗧 𝗕𝗬 𝗞𝗜𝗡𝗚 𝗦𝗔𝗠\`
-              
- ━━━━━━━━━━━━━━━━━━━━━━━
+  ━━━━━━━━━━━━━━━━━━━━━━━
  
          \`𝗢𝗪𝗡𝗘𝗥 𝗖𝗠𝗗\`
 
@@ -1846,15 +1843,7 @@ let itsmenu = `
  ➵ sound159
  ➵ sound160
  ➵ sound161
-
-
-       \`𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢\`
-
-  ➢ 𝕾𝖕𝖎𝖉𝖊𝖗
-  ➢ 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
-  ➢ 𝐇𝐀𝐓𝐄𝐑𝐒
-
-        \`𝕾𝕻𝕴𝕯𝕰𝕽 𝕭𝕺𝕿\`
+`
 `
             let hiks = {
   video: thesky,
@@ -1885,7 +1874,7 @@ case "bugmenu": case "warmenu": {
 
 ━━━━━━━━━━━━━━━━━━━━━━━
  
-  ⧠       \`𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧\`
+  ⧠       \`GREY BOT\`
   ⧠ *_${weton} - ${week}, ${calender}_*
 
   ⧠ 𝑵𝒂𝒎𝒆  : ${pushname}
@@ -2036,7 +2025,7 @@ case "bugmenu": case "warmenu": {
  ➵ newsinvite [ Invite Chanel ] 
 
       
-           \`𝗕𝗬 𝗞𝗜𝗡𝗚 𝗦𝗔𝗠\`
+           \`STRONG BUG BOT\`
     `
                 let hiks = {
       image: menunya, 
